@@ -1,0 +1,62 @@
+body{
+    margin: 0; /*Sin margen para el cuerpo de página*/
+}
+
+/*Encabezados*/
+h1{
+    padding-top: 10px;
+}
+
+h1, h2{
+    font-family: 'Roboto Serif', sans-serif;
+    margin: 0px;
+}
+
+/*Menu*/
+.options{
+    text-align: center;
+}
+
+.options div{
+    padding: 27px;
+    justify-content: center;
+}
+
+.options div:hover{
+    background: #54658D;
+    margin: 0px;
+    
+}
+
+a{
+    text-decoration: none;
+}
+
+.options div:hover a{
+    color: white;
+}
+
+.media{
+    display: flex;
+    margin:0;
+}
+
+.media div{
+    padding: 10px;
+    display: flex;
+    flex-direction: row; 
+    width: 25px;
+    align-items: center;
+    justify-content: center;
+    padding-left: 40px;
+}
+
+footer{
+    font-family: Verdana, Geneva, Tahoma, sans-serif ;
+    color: gray;
+    font-size: 12px;
+    text-align: center;
+    height: 5px;
+    padding: 10px;
+    align-items: stretch;
+}

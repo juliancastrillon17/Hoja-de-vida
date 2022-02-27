@@ -1,0 +1,93 @@
+/*Fondo*/
+body{
+    margin: 0;
+    background-image: url("../Recurses/wallpaper.jpeg");
+    min-height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: absolute;
+    background-attachment: fixed; 
+    
+}
+
+/*Pseudoelementos*/
+body:before{
+    content: "";
+    min-height: 100vh;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+
+    background: linear-gradient(#111111,#111111);
+    opacity: 0.6;
+    z-index: -1;
+}
+
+
+/*Cabecera*/
+h1{
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: white;
+}
+
+.title{
+    padding-top: 15px;
+    text-align: center;
+}
+
+#cabeza{
+    height: 3px;
+    width: 80px;
+    border: none;
+    background-color: #A43E49;
+}
+
+/*Skills*/
+.principal{
+    display: flex;
+    margin: 0;
+}
+
+.principal div{
+    display: flex;
+
+    flex-direction: row; 
+    align-items: center;
+    justify-content: flex-start;
+    padding-left: 60px;
+    margin:0;
+
+    color: #e7e7e7;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+#htmlL{
+    width: 150px;
+    height: auto;
+}
+
+#C{
+    width: 200px;
+    height: auto;
+}
+
+.secundario{
+    display: flex;
+    margin: 0;
+}
+
+.secundario div{
+    display: flex; 
+
+    flex-direction: row; 
+    align-items: center;
+    justify-content: center;
+    padding-left: 60px;
+    padding-right: 60px;
+
+    color: #e7e7e7;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    
+
+}
